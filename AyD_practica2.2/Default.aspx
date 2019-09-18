@@ -76,13 +76,13 @@
 
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
     <div style="margin-bottom: 5px;">
-    Show rooms:
+    Selecciona una especialidad:
         <asp:DropDownList ID="DropDownListFilter" runat="server" onchange="filter('room', this.value)">
-        <asp:ListItem Text="All" Value="0"></asp:ListItem>
-        <asp:ListItem Text="Single" Value="1"></asp:ListItem>
-        <asp:ListItem Text="Double" Value="2"></asp:ListItem>
-        <asp:ListItem Text="Triple" Value="3"></asp:ListItem>
-        <asp:ListItem Text="Family" Value="4"></asp:ListItem>
+        <asp:ListItem Text="Todas" Value="0"></asp:ListItem>
+        <asp:ListItem Text="Medicina General" Value="1"></asp:ListItem>
+        <asp:ListItem Text="Dermatología" Value="2"></asp:ListItem>
+        <asp:ListItem Text="Ginecología" Value="3"></asp:ListItem>
+        <asp:ListItem Text="Urología" Value="4"> </asp:ListItem>
         </asp:DropDownList>
     </div>
     <DayPilot:DayPilotScheduler 
